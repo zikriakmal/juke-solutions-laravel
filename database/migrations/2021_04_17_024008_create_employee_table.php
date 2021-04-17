@@ -17,10 +17,15 @@ class CreateEmployeeTable extends Migration
             $table->id();
             $table->string('first_name');
             $table->string('last_name');
+            $table->string('email');
+            $table->string('phone');
             $table->date('dob');
+            $table->integer('bank_id');
+            $table->integer('staff_position_id');
             $table->integer('province_id');
             $table->integer('city_id');
             $table->string('street');
+            $table->integer('zip_code');
             $table->string('ktp_number');
             $table->string('uri_ktp');
             $table->timestamps();
