@@ -4,16 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class UserController extends Controller
+class EmployeeController extends Controller
 {
-    /**
+     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
     public function index()
     {
-        //
+        return view('main-page.index');
     }
 
     /**
@@ -34,6 +34,7 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
+        dd($request->all());
         //
     }
 
