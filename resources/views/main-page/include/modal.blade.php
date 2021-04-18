@@ -70,6 +70,7 @@
                             name="email">
                     </div>
                     <div class="input-group mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
                         <span class="input-group-text" id="basic-addon1">+62</span>
                         <input type="text" class="form-control" id="phone_number_edit" placeholder="85363502837"
                             name="phone_number" required>
@@ -169,6 +170,7 @@
                              name="email">
                      </div>
                      <div class="input-group mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
                         <span class="input-group-text" id="basic-addon1">+62</span>
                         <input type="number" class="form-control" id="phone_number" placeholder="85363502837"
                              name="phone_number">
