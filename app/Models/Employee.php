@@ -18,7 +18,7 @@ class Employee extends Model
             'first_name' => $data['first_name'],
             'last_name' => $data['last_name'],
             'email' => $data['email'],
-            'phone' => $data['phone_number'],
+            'phone' => '+62'.$data['phone_number'],
             'bank_id' => $data['bank'],
             'staff_position_id' => $data['position'],
             'dob' => $data['dob'],
@@ -37,7 +37,7 @@ class Employee extends Model
         $update->first_name = $data['first_name'];
         $update->last_name = $data['last_name'];
         $update->email = $data['email'];
-        $update->phone = $data['phone_number'];
+        $update->phone = '+62'.$data['phone_number'];
         $update->bank_id = $data['bank'];
         $update->staff_position_id = $data['position'];
         $update->dob = $data['dob'];

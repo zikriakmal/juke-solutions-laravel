@@ -69,9 +69,9 @@
                         <input type="email" class="form-control" id="email_edit" placeholder="zikriakmale@gmail.com"
                             name="email">
                     </div>
-                    <div class="mb-3 flex-fill">
-                        <label for="phone_number" class="form-label">Phone Number</label>
-                        <input type="text" class="form-control" id="phone_number_edit" placeholder="+6285363502837"
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">+62</span>
+                        <input type="text" class="form-control" id="phone_number_edit" placeholder="85363502837"
                             name="phone_number" required>
                     </div>
                     <div class="mb-3">
@@ -130,7 +130,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="ktpFile" class="form-label">Attach KTP</label>
-                        <input class="form-control" type="file" id="ktpFile" name="ktp_file" required>
+                        <input class="form-control" type="file" id="ktpFile" name="ktp_file" >
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -156,11 +156,11 @@
                          <div class="mb-3 me-1 flex-fill">
                              <label for="first_name" class="form-label">First Name</label>
                              <input type="text" class="form-control" id="firstName" placeholder="John"
-                                 name="first_name">
+                                 name="first_name" required>
                          </div>
                          <div class="mb-3 flex-fill">
                              <label for="last_name" class="form-label">Last Name</label>
-                             <input type="text" class="form-control" id="lastName" placeholder="Doe" name="last_name">
+                             <input type="text" class="form-control" id="lastName" placeholder="Doe" name="last_name" required>
                          </div>
                      </div>
                      <div class="mb-3 flex-fill">
@@ -168,12 +168,12 @@
                          <input type="email" class="form-control" id="email" placeholder="zikriakmale@gmail.com"
                              name="email">
                      </div>
-                     <div class="mb-3 flex-fill">
-                         <label for="phone_number" class="form-label">Phone Number</label>
-                         <input type="text" class="form-control" id="phone_number" placeholder="+6285363502837"
+                     <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">+62</span>
+                        <input type="number" class="form-control" id="phone_number" placeholder="85363502837"
                              name="phone_number">
-                     </div>
-                     <div class="mb-3">
+                      </div>
+                    <div class="mb-3">
                          <label for="date_of_birth" class="form-label">Date Of Birth</label>
                          <input type="date" class="form-control" id="dateOfBirth" name="dob">
                      </div>
@@ -225,11 +225,11 @@
                      <div class="mb-3">
                          <label for="ktpNumber" class="form-label">KTP Number</label>
                          <input type="number" class="form-control" id="ktpNumber" placeholder="127000001100011"
-                             name="ktp_number">
+                             name="ktp_number" required>
                      </div>
                      <div class="mb-3">
                          <label for="ktpFile" class="form-label">Attach KTP</label>
-                         <input class="form-control" type="file" id="ktpFile" name="ktp_file">
+                         <input class="form-control" type="file" id="ktpFile" name="ktp_file" required>
                      </div>
                  </div>
                  <div class="modal-footer">

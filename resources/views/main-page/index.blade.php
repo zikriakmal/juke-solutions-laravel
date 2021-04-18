@@ -91,7 +91,7 @@
                 $('#firstName_edit').val(data.first_name);
                 $('#lastName_edit').val(data.last_name);
                 $('#email_edit').val(data.email);
-                $('#phone_number_edit').val(data.phone);
+                $('#phone_number_edit').val(data.phone.slice(3,data.phone.lenghth));
                 $('#dateOfBirth_edit').val(data.dob);
                 $('#provience_edit').val(data.province_id);
                 $('#city_edit').val(data.city_id);
