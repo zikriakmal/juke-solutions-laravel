@@ -108,7 +108,7 @@
             $('#ktpModal').on('show.bs.modal', function(e) {
                 const dataktp = $(e.relatedTarget).data('ktp');
                 $('#ktp').html(`
-                    <img src="{{ asset('user-data') }}/ori-${dataktp}" style="width:400px;height:200px  "></img>`)
+                    <img src="{{ asset('user-data') }}/ori-${dataktp}" style="width:300px;height:200px  "></img>`)
             })
         });
 
